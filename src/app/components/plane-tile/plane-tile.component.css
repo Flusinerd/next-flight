@@ -1,0 +1,14 @@
+:host {
+  width: 80%;
+  background: #009eff;
+  color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+
+.button-row{
+  justify-content: space-between;
+  padding-bottom: 8px;
+}

@@ -1,0 +1,19 @@
+:host {
+  display: block;
+  height: calc(100% - 32px);
+  padding: 16px;
+  background: url("src/assets/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: calc(100% - 64px);
+  align-items: center;
+  justify-items: center;
+}

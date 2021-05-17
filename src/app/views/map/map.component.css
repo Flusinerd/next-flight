@@ -1,0 +1,14 @@
+:host{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.sidemenu {
+  width: 30%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}

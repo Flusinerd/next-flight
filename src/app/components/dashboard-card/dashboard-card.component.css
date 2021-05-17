@@ -1,0 +1,26 @@
+mat-card-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: x-large;
+  height: calc(100% - 20px);
+}
+
+mat-card {
+  min-width: 300px;
+  min-height: 200px;
+  height: 1px;
+  color: var(--primary-darker-color);
+}
+
+mat-card-title {
+  justify-content: center;
+  display: flex;
+}
+
+mat-icon {
+  font-size: 60px;
+  height: 60px;
+  margin-right: 24px;
+  color: var(--primary-color);
+}

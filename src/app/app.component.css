@@ -5,3 +5,23 @@
 .outlet {
   height: calc(100% - 64px);
 }
+
+.branding {
+  margin-right: 24px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+span {
+  margin-left: 5px;
+  font-family: 'Bungee', sans-serif;
+  color: #4F4F4F;
+}
+
+span.colored {
+  background-image: linear-gradient(90deg, #D5A8FF, #CA97F9, #BE86F3, #B375ED, #A763E6, #9B51E0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
